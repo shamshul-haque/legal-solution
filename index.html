@@ -738,17 +738,17 @@
               <input
                 type="text"
                 placeholder="Your Name"
-                class="input bg-base-200 w-full mb-5"
+                class="p-3 bg-base-200 w-full mb-5 outline-none rounded-lg"
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                class="input bg-base-200 w-full mb-5"
+                class="p-3 bg-base-200 w-full mb-5 outline-none rounded-lg"
               />
               <input
                 type="text"
                 placeholder="Subject"
-                class="input bg-base-200 w-full mb-5"
+                class="p-3 bg-base-200 w-full mb-5 outline-none rounded-lg"
               />
               <textarea
                 name=""
@@ -756,7 +756,7 @@
                 cols="30"
                 rows="3"
                 placeholder="Your Message"
-                class="bg-base-200 w-full mb-5 rounded-lg p-3"
+                class="bg-base-200 w-full mb-5 rounded-lg p-3 border-none outline-none"
               ></textarea>
               <button
                 class="btn w-full bg-bg-primary hover:bg-bg-primary font-poppins font-normal text-white text-sm md:text-base normal-case"
@@ -768,5 +768,101 @@
         </div>
       </section>
     </main>
+
+    <!-- footer section -->
+    <footer class="max-w-screen-xl bg-black mx-auto mt-20">
+      <div
+        class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 px-4 md:px-8 lg:px-16 py-12"
+      >
+        <!-- logo -->
+        <div class="flex-1 space-y-2 text-center md:text-left">
+          <div class="flex items-center">
+            <img src="./images/logo.png" alt="logo" class="w-14 pr-2" />
+            <h2
+              class="font-garamond font-extrabold text-white text-xl md:text-2xl"
+            >
+              Legal Solution
+            </h2>
+          </div>
+          <p
+            class="font-poppins font-normal text-gray-200 text-sm md:text-base"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
+        <!-- links -->
+        <div class="flex-1 md:mx-0 lg:mx-auto text-center md:text-left">
+          <h2
+            class="font-garamond font-extrabold text-white text-xl md:text-2xl my-2"
+          >
+            Useful Link
+          </h2>
+          <div
+            class="flex flex-col font-poppins font-normal text-gray-200 text-sm md:text-base space-y-2"
+          >
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Career</a>
+            <a class="link link-hover">Blog</a>
+            <a class="link link-hover">Contact Us</a>
+          </div>
+        </div>
+
+        <!-- contact -->
+        <div class="flex-1 md:mx-0 lg:mx-auto text-center md:text-left">
+          <h2
+            class="font-garamond font-extrabold text-white text-xl md:text-2xl my-2"
+          >
+            Contact Now
+          </h2>
+          <div
+            class="flex flex-col font-poppins font-normal text-gray-200 text-sm md:text-base space-y-2"
+          >
+            <p class="link link-hover">
+              555 4th 5t NW, Washington <br />
+              DC 20530, United States
+            </p>
+            <p class="link link-hover">
+              +88 01750 000 000 <br />
+              +88 01750 000 000
+            </p>
+            <p class="link link-hover">
+              info@gmail.com <br />
+              info@gmail.com
+            </p>
+          </div>
+        </div>
+
+        <!-- subscribe -->
+        <div class="flex-1 text-center md:text-left">
+          <h2
+            class="font-garamond font-extrabold text-white text-xl md:text-2xl my-2"
+          >
+            Subscribe
+          </h2>
+          <p
+            class="font-poppins font-normal text-gray-200 text-sm md:text-base"
+          >
+            Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+          </p>
+          <div class="mt-5 relative">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="p-3 bg-base-200 w-full outline-none rounded-lg"
+            />
+            <button
+              type="submit"
+              class="absolute w-12 h-12 bg-bg-primary rounded-r-lg right-0"
+            >
+              <i class="fa-regular fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
